@@ -1,0 +1,15 @@
+[project]
+name = "lead-scoring"
+version = "0.1.0"
+description = "Lead scoring model deployment"
+dependencies = [
+    "scikit-learn==1.6.1",
+    "fastapi",
+    "uvicorn",
+    "requests",
+    "pydantic"
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
